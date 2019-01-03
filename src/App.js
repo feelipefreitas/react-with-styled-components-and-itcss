@@ -1,11 +1,12 @@
 import React from 'react';
 
 import GlobalStyles from "./styles";
+import CourseCard from './components/CourseCard';
 
 const App = () => (
     <React.Fragment>
         <GlobalStyles />
-        App
+        <CourseCard name="React with Redux" price="U$100" description="All about react and redux" />
     </React.Fragment>
 );
 
