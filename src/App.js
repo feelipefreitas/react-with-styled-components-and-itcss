@@ -1,7 +1,12 @@
 import React from 'react';
 
-const App = () => {
-    return <div>App</div>
-};
+import GlobalStyles from "./styles";
+
+const App = () => (
+    <React.Fragment>
+        <GlobalStyles />
+        App
+    </React.Fragment>
+);
 
 export default App;
